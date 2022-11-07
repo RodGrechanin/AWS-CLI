@@ -49,7 +49,7 @@
 
 #### Port 443
 
-aws ec2 authorize-security-group-ingress --group-id sg-07902706288efc638 --protocol tcp --port 443 --cidr 0.0.0.0/0
+    aws ec2 authorize-security-group-ingress --group-id sg-07902706288efc638 --protocol tcp --port 443 --cidr 0.0.0.0/0
 
 #### Die für die Sicherheitsgruppe erstellten Regeln überprüfen
 
